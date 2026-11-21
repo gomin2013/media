@@ -1,0 +1,36 @@
+# Sub-repos (each has its own .git)
+01 Studio/
+02 Music/
+03 Dev/
+04 News/
+
+# Secrets
+.env
+.env.*
+.claude/secrets.yml
+fnox.toml
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# Dependencies and build output
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Local tool state
+graphify-out/
+.remember/
+.claude/settings.local.json
+.clinerules/
+.cursor/
+.opencode/
+.windsurf/
+
+# Generated media
+*.mp4
+*.mov
+*.wav
+*.mp3
